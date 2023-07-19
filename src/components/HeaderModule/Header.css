@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.Headerdiv {
+  width: 100%;
+  background-color: rgb(202, 157, 245);
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Navlogdiv {
+  width: 40%;
+  height: 100%;
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.CompanyIcon {
+  height: 100%;
+}
+
+.CompanyName {
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2rem;
+  color: rgb(76, 4, 143);
+}
+
+.Navlist {
+  width: 40%;
+  height: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Navitem {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: rgb(76, 4, 143);
+  cursor: pointer;
+}
+
+.Navitem:hover {
+  color: white;
+  text-decoration: underline;
+  transition: all 0.55s ease;
+}
